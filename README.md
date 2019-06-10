@@ -33,3 +33,9 @@
 ### 查看更新日志：
 
 [`update_log.md`](update_log.md)
+
+
+grep options settings:
+
+export GREP_OPTIONS="--exclude-dir=\.svn --exclude-dir=\.git --exclude=tags --exclude=cscope\.out"
+add source ~/.bashrc
