@@ -1,8 +1,8 @@
 set sw=4
 set ts=4
 set et
-set smarttab
-set smartindent
+"set smarttab
+"set smartindent
 set lbr
 set fo+=mB
 set sm
@@ -67,7 +67,7 @@ set shiftwidth=4
 " 使用空格代替制表符
 set expandtab
 " 在行和段开始处使用制表符
-set smarttab
+" set smarttab
 " 显示行号
 set number
 " 历史记录数
@@ -289,7 +289,7 @@ set completeopt=preview,menu
 "共享剪贴板  
 "set clipboard+=unnamed 
 "自动保存
-set autowrite
+"set autowrite
 "set ruler                   " 打开状态栏标尺
 "set cursorline              " 突出显示当前行
 set magic                   " 设置魔术
