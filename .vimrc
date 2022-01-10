@@ -1,8 +1,8 @@
 set sw=4
 set ts=4
 set et
-"set smarttab
-"set smartindent
+set smarttab
+set smartindent
 set lbr
 set fo+=mB
 set sm
@@ -67,7 +67,7 @@ set shiftwidth=4
 " 使用空格代替制表符
 set expandtab
 " 在行和段开始处使用制表符
-" set smarttab
+set smarttab
 " 显示行号
 set number
 " 历史记录数
@@ -399,6 +399,7 @@ let g:miniBufExplMapCTabSwitchBufs = 1
 let g:miniBufExplModSelTarget = 1
 
 
+"set iskeyword+=.
 set termencoding=utf-8
 set encoding=utf8
 set fileencodings=utf8,ucs-bom,gbk,cp936,gb2312,gb18030

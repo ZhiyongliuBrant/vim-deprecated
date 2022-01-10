@@ -39,3 +39,7 @@ grep options settings:
 
 export GREP_OPTIONS="--exclude-dir=\.svn --exclude-dir=\.git --exclude=tags --exclude=cscope\.out"
 add source ~/.bashrc
+
+# add dict
+https://github.com/skywind3000/vim-dict
+
