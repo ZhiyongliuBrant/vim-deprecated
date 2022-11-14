@@ -91,6 +91,12 @@ set viminfo+=!
 " 带有如下符号的单词不要被换行分割
 set iskeyword+=_,$,@,%,#,-
 " 字符间插入的像素行数目
+" set special key, such as space tab key.
+set listchars=tab:→\ ,trail:␣
+set nofixeol
+hi SpecialKey ctermbg=yellow ctermfg=blue
+set list
+
 
 "markdown配置
 au BufRead,BufNewFile *.{md,mdown,mkd,mkdn,markdown,mdwn}   set filetype=mkd
@@ -291,7 +297,7 @@ set completeopt=preview,menu
 "自动保存
 "set autowrite
 "set ruler                   " 打开状态栏标尺
-"set cursorline              " 突出显示当前行
+set cursorline              " 突出显示当前行
 set magic                   " 设置魔术
 set guioptions-=T           " 隐藏工具栏
 set guioptions-=m           " 隐藏菜单栏
